@@ -3,6 +3,11 @@
     <Platform Name="x64" />
   </Configurations>
   <Project Path="include/sfml_utils/sfml_utils.vcxproj" Id="4decafea-15f6-4695-9071-4d36323cfad0" />
-  <Project Path="lib/lib.vcxproj" Id="fdf69707-6946-4c08-8db3-da9d66286714" />
-  <Project Path="test/test.vcxproj" Id="f1a2b02e-d460-4041-a61f-183597ae53fe" />
+  <Project Path="lib/lib.vcxproj" Id="fdf69707-6946-4c08-8db3-da9d66286714">
+    <BuildDependency Project="include/sfml_utils/sfml_utils.vcxproj" />
+  </Project>
+  <Project Path="test/test.vcxproj" Id="f1a2b02e-d460-4041-a61f-183597ae53fe">
+    <BuildDependency Project="include/sfml_utils/sfml_utils.vcxproj" />
+    <BuildDependency Project="lib/lib.vcxproj" />
+  </Project>
 </Solution>

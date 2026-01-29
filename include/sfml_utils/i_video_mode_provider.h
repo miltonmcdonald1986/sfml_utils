@@ -5,7 +5,7 @@
 
 #include "SFML/Window/VideoMode.hpp"
 
-namespace sfml_utils::window
+namespace sfml_utils::i_video_mode_provider
 {
 
 	struct IVideoModeProvider

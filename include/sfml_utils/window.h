@@ -15,6 +15,6 @@ namespace sfml_utils::window
 	 * @param pixelDepth Optional bits-per-pixel for the returned mode.
 	 * @return sf::VideoMode Scaled video mode.
 	 */
-	sf::VideoMode ScaledDesktopMode(IVideoModeProviderPtr upVideoModeProvider, double scaleFactor, std::optional<unsigned int> pixelDepth = std::nullopt);
+	sf::VideoMode ScaledDesktopMode(i_video_mode_provider::IVideoModeProviderPtr upVideoModeProvider, double scaleFactor, std::optional<unsigned int> pixelDepth = std::nullopt);
 
 }
