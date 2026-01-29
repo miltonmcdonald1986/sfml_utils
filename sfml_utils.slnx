@@ -1,1 +1,6 @@
-<Solution />
+<Solution>
+  <Configurations>
+    <Platform Name="x64" />
+  </Configurations>
+  <Project Path="include/sfml_utils/sfml_utils.vcxproj" Id="4decafea-15f6-4695-9071-4d36323cfad0" />
+</Solution>
